@@ -1,7 +1,17 @@
-/*
+﻿/*
 * Desarrolle un programa que recibe por argumento una o varias cadenas de numeros.
 * Convierta estas cadenas a vectores de enteros y filtre en sub-vectores los valores primos y no primos.
 * Luego imprima ambos vectores por pantalla y archivo.
+*/
+
+/*
+* Argumentos de testeo
+* Set 1: 23-63-7-86-99-2-6-4 32-24-1-65-87-8-9
+* Set 2: 63,89,99,11,55,3,7 21-22-96-125-111-144
+* Set 3: 66,99,111,55,44,33,11 85,58,41,14,17,19,458,999
+* 
+* ⚠ Si no recuerda como se ingresaba argumentos a un programa
+* repase las clases de IRI y/o documentación den Cplusplus, CppReference
 */
 
 #include "proc_str.h"
