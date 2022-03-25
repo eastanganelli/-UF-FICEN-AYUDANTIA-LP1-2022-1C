@@ -5,7 +5,9 @@ typedef struct {
 	int cantidadPrimos, cantidadNoPrimos;
 } sizePrimos;
 
-typedef enum { CSV, BIN, DAT } tipoArchivo;
+extern "C" {
+	typedef enum { CSV, BIN, DAT } tipoArchivo;
+}
 
 /// <summary>
 /// Imprimir por pantalla por default.
