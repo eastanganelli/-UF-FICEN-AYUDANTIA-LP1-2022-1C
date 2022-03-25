@@ -2,7 +2,6 @@
 * Desarrolle un programa que recibe por argumento una o varias cadenas de numeros.
 * Convierta estas cadenas a vectores de enteros y filtre en sub-vectores los valores primos y no primos.
 * Luego imprima ambos vectores por pantalla y archivo.
-* 
 */
 
 #include "proc_str.h"
