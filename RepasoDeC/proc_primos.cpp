@@ -1,6 +1,6 @@
 #include "proc_primos.h"
 
-int esPrimo(int nro) {
+booleano esPrimo(int nro) {
 	// Como verifico si el numero es primo?
 
 	int contador = 2;
@@ -8,7 +8,7 @@ int esPrimo(int nro) {
 	for (int i = 2; i < nro && contador < 3; i++)
 		if (nro % i == 0) contador++;
 
-	return contador < 3 ? TRUE : FALSE;
+	return contador < 3 ? VERDADERO : FALSO;
 }
 
 void contadorPrimos(int* misNros, int longitud, int& cantidadPrimos, int& cantidadNoPrimos) {
