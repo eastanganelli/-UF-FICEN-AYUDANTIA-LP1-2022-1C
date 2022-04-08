@@ -9,7 +9,6 @@ void renew(char**& viejaPtrVector, int longitud) {
 	delete[] viejaPtrVector;
 	viejaPtrVector = nuevaPtrVector;
 }
-
 void renew(int*& viejoVector, int longitud) {
 	int* nuevoVector = new int[longitud];
 	memcpy(nuevoVector, viejoVector, (longitud - 1) * sizeof(int));

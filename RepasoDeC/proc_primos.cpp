@@ -10,14 +10,12 @@ booleano esPrimo(int nro) {
 
 	return contador < 3 ? VERDADERO : FALSO;
 }
-
 void contadorPrimos(int* misNros, int longitud, int& cantidadPrimos, int& cantidadNoPrimos) {
 	for (int i = 0; i < longitud; i++) {
 		esPrimo(misNros[i]) ? cantidadPrimos++ : cantidadNoPrimos++;
 	}
 	// Que otra forma habría para calcularlo? Porpuestas?
 }
-
 void vectorizacionPrimos(int* misNros, int longitudNros, int*& Primos, int longitudPrimos, int*& NoPrimos, int longitudNoPrimos) {
 	Primos   = new int[longitudPrimos];
 	NoPrimos = new int[longitudNoPrimos];

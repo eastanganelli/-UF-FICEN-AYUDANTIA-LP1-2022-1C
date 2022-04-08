@@ -10,9 +10,6 @@ void imprimirPantalla(char const* texto, int* vectorNros, int longitud) {
 		printf(" %d", vectorNros[i]);
 	printf("\n");
 }
-
-
-
 FILE* abrirArchivo(char* archivo, tipoArchivo Modo) {
 	char apertura[4] = "\0";
 	switch (Modo) {
@@ -29,16 +26,13 @@ FILE* abrirArchivo(char* archivo, tipoArchivo Modo) {
 	FILE* auxArchivo = fopen(archivo, apertura);
 	return auxArchivo;
 }
-
 void cerrarArchivo(FILE*& archivo) {
 	fclose(archivo);
 	archivo = NULL;
 }
-
 void imprimirArchivo(FILE* archivo, char const* texto) {
 	fprintf(archivo, "%s", texto);
 }
-
 void imprimirArchivo(FILE* archivo, char const* texto, int* vectorNros, int longitud) {
 	fprintf(archivo, "%s", texto);
 
