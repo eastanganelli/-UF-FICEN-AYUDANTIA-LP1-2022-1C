@@ -1,6 +1,7 @@
 #include "global.h"
 #define MAX 5
 
+<<<<<<< HEAD
 #include "cBarcos.h"
 
 
@@ -167,4 +168,23 @@ public:
 		void Ordenar();
 	// Redimension
 		void Redimension(int);
+=======
+
+class cLista {
+private:
+	static int cantidadNodos;
+	int** ListaNumeros = NULL;
+	int tamanio;
+public:
+	cLista(int);
+	~cLista();
+
+	bool AgregarNodo(int*);
+	void MostrarLista();
+	bool EliminarNodo(int);
+	int BuscarNodo(int);
+	bool ModificarNodo(int, int*);
+	void OrdenarLista(); // Como ordenamos?
+	void Redimension(int);
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
 };

@@ -27,9 +27,12 @@
     <ClCompile Include="cStatic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="cBarcos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+=======
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lista.h">
@@ -44,8 +47,11 @@
     <ClInclude Include="global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="cBarcos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+=======
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
   </ItemGroup>
 </Project>

@@ -2,8 +2,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
-#define TRUE  1
-#define FALSE 0
+typedef enum { FALSO, VERDADERO } booleano;
 
 #include <stdio.h>
 #include <stdlib.h>

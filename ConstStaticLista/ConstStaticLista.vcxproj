@@ -24,7 +24,10 @@
     <ProjectGuid>{697c4580-d781-43d7-9c19-a8d7f335044d}</ProjectGuid>
     <RootNamespace>ConstStaticLista</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+<<<<<<< HEAD
     <ProjectName>Const-Static-Lista</ProjectName>
+=======
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,14 +143,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="cBarcos.cpp" />
+=======
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
     <ClCompile Include="cConst.cpp" />
     <ClCompile Include="cStatic.cpp" />
     <ClCompile Include="lista.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="cBarcos.h" />
+=======
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
     <ClInclude Include="cConst.h" />
     <ClInclude Include="cStatic.h" />
     <ClInclude Include="global.h" />

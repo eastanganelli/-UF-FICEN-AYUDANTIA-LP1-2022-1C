@@ -2,6 +2,13 @@
 #include "cConst.h"
 #include "lista.h"
 
+<<<<<<< HEAD
+=======
+
+int cStatic::cantidadObjetos = 0;
+int cLista::cantidadNodos = 0;
+
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
 int main() {
 #pragma region ProbandoStatic
 
@@ -40,8 +47,12 @@ int main() {
 	delete MiConstante;
 #pragma endregion
 #pragma region ProbandoLista
+<<<<<<< HEAD
 	cUnlistedBarcos* MisBarcos = new cUnlistedBarcos(3, false);
 	/*cLista* MiListado = new cLista(8);
+=======
+	cLista* MiListado = new cLista(8);
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
 
 	// Agregamos unos nodos
 	MiListado->AgregarNodo(new int{ 23 });
@@ -69,7 +80,11 @@ int main() {
 	// Reimprimo mi lista
 	MiListado->MostrarLista();
 
+<<<<<<< HEAD
 	delete MiListado;*/
+=======
+	delete MiListado;
+>>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
 #pragma endregion
 	return 0;
 }
