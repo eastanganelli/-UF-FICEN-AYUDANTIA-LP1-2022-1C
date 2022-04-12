@@ -1,10 +1,7 @@
 #include "cStatic.h"
 
-<<<<<<< HEAD
 int cStatic::cantidadObjetos = 0;
 
-=======
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
 #pragma region cStatic_Methods
 float cStatic_Methods::perimetro(float x_ = 0, float y_ = 0, float z_ = 0) {
 	return x_ + y_ + z_;

@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="lista.cpp">
+    <ClCompile Include="cBarcos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="cConst.cpp">
@@ -27,15 +24,18 @@
     <ClCompile Include="cStatic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="cBarcos.cpp">
+    <ClCompile Include="Lista_ct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-=======
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lista_ca.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lista.h">
+    <ClInclude Include="cBarcos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cConst.h">
@@ -47,11 +47,11 @@
     <ClInclude Include="global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="cBarcos.h">
+    <ClInclude Include="Lista_ct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-=======
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
+    <ClInclude Include="Lista_ca.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

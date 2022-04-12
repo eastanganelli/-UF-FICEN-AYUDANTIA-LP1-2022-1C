@@ -21,13 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{697c4580-d781-43d7-9c19-a8d7f335044d}</ProjectGuid>
-    <RootNamespace>ConstStaticLista</RootNamespace>
+    <ProjectGuid>{0ef9d3e1-c5cb-4a08-ae27-1e46a3e19f10}</ProjectGuid>
+    <RootNamespace>ClaseConstStaticListas</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-<<<<<<< HEAD
-    <ProjectName>Const-Static-Lista</ProjectName>
-=======
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,24 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="cBarcos.cpp" />
-=======
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
     <ClCompile Include="cConst.cpp" />
     <ClCompile Include="cStatic.cpp" />
-    <ClCompile Include="lista.cpp" />
+    <ClCompile Include="Lista_ca.cpp" />
+    <ClCompile Include="Lista_ct.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClInclude Include="cBarcos.h" />
-=======
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
     <ClInclude Include="cConst.h" />
     <ClInclude Include="cStatic.h" />
     <ClInclude Include="global.h" />
-    <ClInclude Include="lista.h" />
+    <ClInclude Include="Lista_ca.h" />
+    <ClInclude Include="Lista_ct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

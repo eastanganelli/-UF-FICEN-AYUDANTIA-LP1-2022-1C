@@ -1,14 +1,8 @@
 #include "cStatic.h"
 #include "cConst.h"
-#include "lista.h"
+#include "Lista_ct.h"
+#include "Lista_ca.h"
 
-<<<<<<< HEAD
-=======
-
-int cStatic::cantidadObjetos = 0;
-int cLista::cantidadNodos = 0;
-
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
 int main() {
 #pragma region ProbandoStatic
 
@@ -47,44 +41,19 @@ int main() {
 	delete MiConstante;
 #pragma endregion
 #pragma region ProbandoLista
-<<<<<<< HEAD
-	cUnlistedBarcos* MisBarcos = new cUnlistedBarcos(3, false);
-	/*cLista* MiListado = new cLista(8);
-=======
-	cLista* MiListado = new cLista(8);
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
+	cUnlistedBarcos* MisBarcos = new cUnlistedBarcos(3, true);
+	
+	MisBarcos->Agregar(new cBarcos("RMS Olympic", "131346", "31/05/1911", "White Star Line", 265));
+	MisBarcos->Agregar(new cBarcos("RMS Titanic", "131428", "15/05/1912", "White Star Line", 269));
+	MisBarcos->Agregar(new cBarcos("HMHS Britannic", "G618", "12/12/1915", "White Star Line", 269));
+	
+	MisBarcos->Imprimir();
 
-	// Agregamos unos nodos
-	MiListado->AgregarNodo(new int{ 23 });
-	MiListado->AgregarNodo(new int{ 25 });
-	MiListado->AgregarNodo(new int{ 27 });
-	MiListado->AgregarNodo(new int{ 28 });
-	MiListado->AgregarNodo(new int{ 19 });
+	MisBarcos->Eliminar(1);
+	
+	MisBarcos->Imprimir();
 
-	// Mostrar Lista
-	MiListado->MostrarLista();
-
-	// Modificar Nodo con Valor 25
-	int id_ = MiListado->BuscarNodo(25);
-	if(id_ != -1) // Si es -1, no se encontro el valor bsucado
-		MiListado->ModificarNodo(id_, new int{ 20 });
-
-	// Eliminar 2 Nodos
-	id_ = MiListado->BuscarNodo(28);
-	if (id_ != -1) // Si es -1, no se encontro el valor bsucado
-		MiListado->EliminarNodo(id_);
-	id_ = MiListado->BuscarNodo(60);
-	if (id_ != -1) // Si es -1, no se encontro el valor bsucado
-		MiListado->EliminarNodo(id_);
-
-	// Reimprimo mi lista
-	MiListado->MostrarLista();
-
-<<<<<<< HEAD
-	delete MiListado;*/
-=======
-	delete MiListado;
->>>>>>> 988b4af0b92e6df98847d38c620652a353627f93
+	delete MisBarcos;
 #pragma endregion
 	return 0;
 }
