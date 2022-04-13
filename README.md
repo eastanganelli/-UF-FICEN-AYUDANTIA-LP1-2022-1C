@@ -14,8 +14,8 @@
 ## Teorias y Practicas
 | Teoría         | Práctica       |
 |----------------|----------------|
-| [18/3/22 Repaso de C](RepasoDeC/punteros.md) |  |
-| [8/4/22 Const - Static - Listas](Clase_Const_Static_Listas/Const_Static_List.md) |  |
+| [18/3/22 Repaso de C](RepasoDeC/punteros.md) | [Proyecto Repaso De C](/RepasoDeC) |
+| [8/4/22 Const - Static - Listas](Clase_Const_Static_Listas/Const_Static_List.md) | [Proyecto Const, Static y Listas](/Clase_Const_Static_Listas) |
 
 ## Guia Resuelta
 ##### - NO DATA
