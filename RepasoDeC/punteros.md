@@ -1,4 +1,4 @@
-[<- Volver](/)
+[<- Volver](/main)
 # Pointers [Punteros]
 ## INDEX
 ### [¿Para qué sirven los punteros?](#para-qué-sirven-los-punteros)
