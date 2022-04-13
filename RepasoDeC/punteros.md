@@ -33,4 +33,4 @@ int main() {
 ```
 
 ### Ejemplo Completo
-[Memoría Dinámica](/)
+[Memoría Dinámica](/RepasoDeC)
