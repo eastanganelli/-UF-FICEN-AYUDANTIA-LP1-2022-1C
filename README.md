@@ -15,8 +15,8 @@
 ## Teorias y Practicas
 | Teoría         | Práctica       |
 |----------------|----------------|
-| [18/3/22 Repaso de C](https://gitlab.com/FICEN_eastanganelli/ayudantia/ayudantia-lp1-2022-1c/-/tree/main/RepasoDeC) |  |
-| [8/4/22 Const - Static - Listas](https://gitlab.com/FICEN_eastanganelli/ayudantia/ayudantia-lp1-2022-1c/-/tree/main/Clase_Const_Static_Listas) |  |
+| [18/3/22 Repaso de C](https://gitlab.com/FICEN_eastanganelli/ayudantia/ayudantia-lp1-2022-1c/-/tree/main/Clase_Const_Static_Listas) |  |
+| [8/4/22 Const - Static - Listas](Clase_Const_Static_Listas/Const_Static_List.md) |  |
 
 ## Guia Resuelta
-##### - No DATA
+##### - NO DATA
