@@ -1,5 +1,4 @@
 # Pointers [Punteros]
----
 ## INDEX
 ### [¿Para qué sirven los punteros?](#para-qué-sirven-los-punteros)
 ### [En C/C++](#en-cc)
@@ -34,4 +33,4 @@ int main() {
 ```
 
 ### Ejemplo Completo
-[Memoría Dinámica](main.cpp)
+[Memoría Dinámica](/)
