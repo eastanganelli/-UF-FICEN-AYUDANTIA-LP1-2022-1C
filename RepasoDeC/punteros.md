@@ -1,4 +1,4 @@
-[<- Volver](/ayudantia-lp1-2022-1c)
+[<- Volver](/)
 # Pointers [Punteros]
 ## INDEX
 ### [¿Para qué sirven los punteros?](#para-qué-sirven-los-punteros)
