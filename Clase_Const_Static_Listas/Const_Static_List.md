@@ -1,4 +1,4 @@
-[<- Volver](/ayudantia-lp1-2022-1c/README.md)
+[<- Volver](/ayudantia-lp1-2022-1c)
 # Const Static List
 ## Temas En esta Sección
 #### [Listas](lists.md)
