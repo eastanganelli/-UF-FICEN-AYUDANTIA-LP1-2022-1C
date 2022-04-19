@@ -1,4 +1,3 @@
-[<- Volver](Const_Static_List.md)
 # Static [Estático]
 ## INDEX
 ### [¿Qué es un Static? ¿Para que sirve?](#qué-es-un-static-para-que-sirve)

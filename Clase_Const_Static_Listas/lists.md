@@ -1,4 +1,3 @@
-[<- Volver](Const_Static_List.md)
 # List [LISTA]
 # INDEX
 ### [¿Qué es una Lista? ¿Para que sirve?](#qué-es-una-lista-para-que-sirve)
