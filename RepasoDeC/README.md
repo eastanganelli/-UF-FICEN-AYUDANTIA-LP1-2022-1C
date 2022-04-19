@@ -32,6 +32,5 @@ int main() {
     delete[] x;
 }
 ```
-
 ### Ejemplo Completo
 [Memoría Dinámica](/RepasoDeC)
