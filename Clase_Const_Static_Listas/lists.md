@@ -45,9 +45,7 @@ class MiLista {
 ## Ejemplos
 ### Listas Desordenada
 [Lista Desordenada Header](Lista_ct.h)
-
 [Lista Desordenada CPP](Lista_ct.cpp)
 ### Lista Ordenada
 [Lista Ordenada Header](Lista_ca.h)
-
 [Lista Ordenada CPP](Lista_ca.cpp)
