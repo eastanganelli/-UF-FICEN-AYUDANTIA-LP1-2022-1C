@@ -38,4 +38,5 @@ public:
 
 ### Ejemplos
 [Static Header](cStatic.h)
+
 [Static CPP](cStatic.h)
