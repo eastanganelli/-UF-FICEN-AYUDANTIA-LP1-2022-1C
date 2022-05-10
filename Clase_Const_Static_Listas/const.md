@@ -41,4 +41,8 @@ void reSet_ID(string ID) { // Esto no se puede hacer
 ### Ejemplos
 [Const Header](cConst.h)
 
+<<<<<<< HEAD
 [Const CPP](cConst.h)
+=======
+[Const CPP](cConst.h)
+>>>>>>> e8b8c66e9de8d9447defc6138b806791f17fc120

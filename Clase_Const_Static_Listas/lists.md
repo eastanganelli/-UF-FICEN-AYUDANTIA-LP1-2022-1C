@@ -50,4 +50,8 @@ class MiLista {
 ### Lista Ordenada
 [Lista Ordenada Header](Lista_ca.h)
 
+<<<<<<< HEAD
 [Lista Ordenada CPP](Lista_ca.cpp)
+=======
+[Lista Ordenada CPP](Lista_ca.cpp)
+>>>>>>> e8b8c66e9de8d9447defc6138b806791f17fc120
